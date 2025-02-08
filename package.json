@@ -19,7 +19,6 @@
     "vue-iro-color-picker": "^2.0.0",
     "vue-router": "^3.5.2",
     "vue-tasty-burgers": "^1.2.3",
-    "vue-typed-js": "^0.1.2",
     "vuetify": "^2.5.8"
   },
   "devDependencies": {

@@ -102,7 +102,9 @@ export default {
     },
     setDims() {
       let bodyWidth = document.body.clientWidth;
-      let blocks = document.getElementsByClassName("colorDisplay");
+      let blocksHtml = document.getElementsByClassName("colorDisplay");
+      let blocks =  Array.prototype.slice.call(blocksHtml);
+
       // console.log(bodyWidth, "inner width");
       if (bodyWidth >= 1280) {
         this.pickerWidth = 250;
